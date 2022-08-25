@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Baloo Bhaijaan 2", cursive;
+    background-color: #010f31;
+    padding: 0;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #010b24;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #00ADEF;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calculator {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #00ADEF;
+    text-shadow:
+        0 0 51px #0280b1,
+        0 0 45px #0280b1,
+        0 0 18px #0280b1,
+
+
+        0 0 32px #0280b1,
+        0 0 82px #0280b1,
+        0 0 92px #0280b1,
+        0 0 102px #0280b1,
+        0 0 151px #0280b1;
+}
+
+.CGPA form table tbody tr td input {
+    width: 70px;
+    text-align: center;
+}
+
+
+.Table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    padding: 35px;
+}
+
+.TableHead {
+    margin-bottom: 10px;
+}
+
+.TableBody tr {
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.Table tbody td {
+    padding: 8px;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0280b1;
+    color: white;
+    text-align: center;
+}
+
+
+select{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    text-align: center;
+    width:60px;
+    background-color: #0280b1;
+    border-radius: 10px;
+}

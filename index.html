@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GPA Calculator</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="Logo.png" alt="" width="70px" height="70px">
+        <div class="title">
+            FAST NU GPA Calculator
+        </div>
+    </div>
+    <div class="calculator">
+
+
+        <div class="SGPA">
+            <h1 class="headingSGPA">SGPA</h1>
+            <form oninput="updateOutput()">
+                <table class="Table">
+                    <thead class="TableHead">
+                        <tr>
+                            <td>Subject</td>
+                            <td>CH</td>
+                            <td>Grade</td>
+                        </tr>
+                    </thead>
+                    <tbody class="TableBody">
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH01" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade01" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH02" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade02" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH03" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade03" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH04" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade04" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH05" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade05" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH06" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade06" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH07" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade07" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Subject Name"></td>
+                            <td>
+                                <select name="CH08" id="CH" onchange="updateOutput()">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Grade08" id="Grade" onchange="updateOutput()">
+                                    <option value="4">A+/A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1.33">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="result">
+                    <output name="result">0</output>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="CGPA">
+            <h1 class="headingSGPA">CGPA</h1>
+
+            <form oninput="updateCGPA()">
+                <table class="Table">
+                    <thead class="TableHead">
+                        <tr>
+                            <td>Semester</td>
+                            <td>Total CH</td>
+                            <td>GPA</td>
+                        </tr>
+                    </thead>
+                    <tbody  class="TableBody">
+                        <tr>
+                            <td><label for="">Semester 01</label></td>
+                            <td>
+                                <input type="text" name="ch1" id="ch1" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa1" id="gpa1" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 02</label></td>
+                            <td>
+                                <input type="text" name="ch2" id="ch2" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa2" id="gpa2" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 03</label></td>
+                            <td>
+                                <input type="text" name="ch3" id="ch3" value="0"> 
+                            </td>
+                            <td>
+                                <input type="text" name="gpa3" id="gpa3" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 04</label></td>
+                            <td>
+                                <input type="text" name="ch4" id="ch4" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa4" id="gpa4" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 05</label></td>
+                            <td>
+                                <input type="text" name="ch5" id="ch5" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa5" id="gpa5" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 06</label></td>
+                            <td>
+                                <input type="text" name="ch6" id="ch6" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa6" id="gpa6" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 07</label></td>
+                            <td>
+                                <input type="text" name="ch7" id="ch7" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa7" id="gpa7" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Semester 08</label></td>
+                            <td>
+                                <input type="text" name="ch8" id="ch8" value="0">
+                            </td>
+                            <td>
+                                <input type="text" name="gpa8" id="gpa8" value="0">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="result">
+                    <output name="resultCGPA">0</output>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
