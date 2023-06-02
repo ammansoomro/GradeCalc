@@ -1,4 +1,5 @@
-# FAST GPA Calculator
+# GradeCalc
+
 This is a GPA calculator web application, built using HTML, CSS, and JavaScript. The application allows users to calculate their semester and cumulative GPAs based on the grades they received in their courses.
 
 Demo: https://ammansoomro.github.io/GPA-Calculator-Web/
