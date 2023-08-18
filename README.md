@@ -2,8 +2,6 @@
 
 This is a GPA calculator web application, built using HTML, CSS, and JavaScript. The application allows users to calculate their semester and cumulative GPAs based on the grades they received in their courses.
 
-Demo: https://ammansoomro.github.io/GPA-Calculator-Web/
-
 
 ## Features
 - Calculates semester GPA based on credit hours and grades for up to 8 courses
